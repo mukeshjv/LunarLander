@@ -8,6 +8,19 @@ Python Implementation of [Expected Sarsa](http://www.cs.ox.ac.uk/people/shimon.w
 - numpy 1.18.1
 - gym 0.17.2
 
+## Configs
+
+- step_size: 1e-3
+- beta_m: 0.9
+- beta_v: 0.999
+- epsilon: 1e-8
+- gamma: 0.99
+- tau: 0.00
+
+## Train your own model
+
+    python model.py
+
 ## Results
 
 Initial     |   After 200 episodes  |   After 500 episodes  
